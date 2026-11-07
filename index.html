@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4f0">
+  <meta
+    name="description"
+    content="Ремонт квартир и коттеджей в Курске. Косметическая и капитальная отделка, ремонт по дизайн-проекту. Обсудите задачу и договоритесь об осмотре."
+  >
+  <meta
+    name="keywords"
+    content="ремонт квартир Курск, капитальный ремонт, косметический ремонт, ремонт под ключ, отделка квартир, ремонт по дизайн-проекту"
+  >
+  <meta
+    property="og:title"
+    content="Ремонт и отделка квартир, коттеджей в Курске — РемонтПлюс"
+  >
+  <meta
+    property="og:description"
+    content="Косметический и капитальный ремонт квартир в Курске. Обсудим задачу, осмотрим объект и согласуем состав работ."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="images/hero-image.webp">
+
+  <title>Ремонт и отделка квартир, коттеджей в Курске — РемонтПлюс</title>
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link
+    rel="preload"
+    href="fonts/onest-regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+  <link
+    rel="preload"
+    href="fonts/onest-medium.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+  <link
+    rel="preload"
+    href="fonts/onest-bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+  <header class="header">
+    <div class="header__inner">
+      <a class="header__logo" href="#top" aria-label="РемонтПлюс — главная">
+        <span class="header__logo-mark" aria-hidden="true">Р</span>
+        <span>Ремонт<span class="header__logo-accent">Плюс</span></span>
+      </a>
+
+      <button
+        class="header__menu-toggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="header-menu"
+      >
+        <span class="header__menu-icon" aria-hidden="true"></span>
+      </button>
+
+      <div class="header__menu" id="header-menu">
+        <nav class="header__nav" aria-label="Основная навигация">
+          <a class="header__nav-link" href="#services">Услуги</a>
+          <a class="header__nav-link" href="#about">О нас</a>
+          <a class="header__nav-link" href="#steps">Этапы</a>
+          <a class="header__nav-link" href="#faq">Вопросы</a>
+          <a class="header__nav-link" href="#contacts">Контакты</a>
+        </nav>
+
+        <address class="header__contacts">
+          <a class="header__phone" href="tel:+79606738436">
+            +7 (960) 673-84-36
+          </a>
+
+          <a
+            class="header__messenger header__messenger--max"
+            href="https://max.ru/79606738436"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Написать в MAX — откроется в новой вкладке"
+          >
+            <img
+              src="images/Логотип_MAX.svg.webp"
+              alt=""
+              height="42"
+              width="42"
+            >
+          </a>
+
+          <a
+            class="header__messenger header__messenger--whatsapp"
+            href="https://wa.me/79606738436"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Написать в WhatsApp — откроется в новой вкладке"
+          >
+            <svg
+              class="header__messenger-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M12.04 2a9.8 9.8 0 0 0-8.38 14.87L2.36 22l5.26-1.38A9.97 9.97 0 1 0 12.04 2Zm-.01 18.1a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.12.82.83-3.04-.2-.31a8.08 8.08 0 1 1 6.92 3.84Zm4.44-6.05c-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.95-1.2-.72-.64-1.21-1.43-1.35-1.67-.14-.24-.02-.37.1-.49.11-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.31-.74-1.79-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.57.18 1.09.16 1.5.1.46-.07 1.43-.59 1.63-1.15.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/>
+            </svg>
+          </a>
+
+          <a class="button button--small" href="#contacts">Заказать звонок</a>
+        </address>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Ремонт и отделка квартир, коттеджей</p>
+
+          <h1 class="hero__title" id="hero-title">
+            Обновите квартиру<br>
+            <span>под свои задачи</span>
+          </h1>
+
+          <p class="hero__description">
+            Обсудим ваши пожелания, осмотрим объект и подберём подходящий
+            объём работ.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button" href="#contacts">Обсудить ремонт</a>
+            <p class="hero__price">
+              Стоимость ремонта<br>
+              <strong>Расчёт после осмотра</strong>
+            </p>
+          </div>
+
+          <ul class="hero__facts" aria-label="О работе">
+            <li>Выезд на замер по договорённости</li>
+            <li>Курск и ближайшие районы</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__image"></div>
+          <p class="hero__image-caption">
+            Ремонт, продуманный под вашу квартиру
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="services section"
+      id="services"
+      aria-labelledby="services-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading section__heading--row">
+          <div>
+            <p class="section__eyebrow">Услуги</p>
+            <h2 class="section__title" id="services-title">
+              Выберите формат ремонта
+            </h2>
+          </div>
+
+          <p class="section__lead">
+            Состав работ и стоимость обсуждаем после знакомства с объектом
+            и вашими пожеланиями.
+          </p>
+        </header>
+
+        <ul class="services__list">
+          <li class="services__item">
+            <p class="services__tag">01 / Обновление отделки</p>
+            <h3>Косметический ремонт</h3>
+            <p class="services__price">Расчёт после осмотра</p>
+            <p class="services__description">
+              Обновление стен, потолка и пола с учётом состояния квартиры
+              и согласованного перечня работ.
+            </p>
+            <a href="#contacts">
+              Обсудить задачу <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="services__item services__item--featured">
+            <p class="services__tag">02 / Комплекс работ</p>
+            <h3>Капитальный ремонт</h3>
+            <p class="services__price">Расчёт после осмотра</p>
+            <p class="services__description">
+              Демонтаж, подготовка поверхностей и комплексная отделка
+              по согласованному перечню.
+            </p>
+            <a href="#contacts">
+              Обсудить задачу <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="services__item">
+            <p class="services__tag">03 / По проекту</p>
+            <h3>Ремонт по дизайн-проекту</h3>
+            <p class="services__price">Расчёт по проекту</p>
+            <p class="services__description">
+              Отделка с учётом планировки, дизайн-проекта и выбранных
+              материалов.
+            </p>
+            <a href="#contacts">
+              Обсудить задачу <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="work-scope section"
+      id="work-scope"
+      aria-labelledby="work-scope-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Состав работ</p>
+          <h2 class="section__title" id="work-scope-title">
+            Что может входить в ремонт
+          </h2>
+          <p class="section__lead">
+            Итоговый перечень зависит от состояния объекта и согласуется
+            до начала работ.
+          </p>
+        </header>
+
+        <ul class="work-scope__list">
+          <li class="work-scope__item">
+            <h3>Подготовка</h3>
+            <p>
+              Осмотр помещения, обсуждение пожеланий и согласование перечня
+              работ.
+            </p>
+          </li>
+          <li class="work-scope__item">
+            <h3>Демонтаж и подготовка поверхностей</h3>
+            <p>
+              При необходимости — демонтажные работы и подготовка поверхностей
+              к отделке.
+            </p>
+          </li>
+          <li class="work-scope__item">
+            <h3>Отделка</h3>
+            <p>
+              Работы со стенами, потолком и полом согласно согласованному
+              объёму.
+            </p>
+          </li>
+          <li class="work-scope__item">
+            <h3>Завершение работ</h3>
+            <p>
+              Проверка выполненных работ и обсуждение результата с заказчиком.
+            </p>
+          </li>
+        </ul>
+
+        <p class="work-scope__note">
+          Необходимость отдельных работ, их стоимость и порядок выполнения
+          уточняются при осмотре и фиксируются в согласованном перечне.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="cost section"
+      id="cost"
+      aria-labelledby="cost-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Стоимость</p>
+          <h2 class="section__title" id="cost-title">
+            Как рассчитывается цена
+          </h2>
+          <p class="section__lead">
+            Стоимость зависит от состояния квартиры, площади, выбранных
+            материалов и состава работ. Точную сумму можно определить после
+            обсуждения задачи и осмотра объекта.
+          </p>
+        </header>
+
+        <div class="cost__examples">
+          <article class="cost__example">
+            <p class="cost__tag">Пример расчёта 01</p>
+            <h3>Обновление отделки</h3>
+            <p>
+              Расчёт после осмотра
+            </p>
+          </article>
+
+          <article class="cost__example">
+            <p class="cost__tag">Пример расчёта 02</p>
+            <h3>Комплексный ремонт</h3>
+            <p>
+              Расчёт после осмотра
+            </p>
+          </article>
+
+          <article class="cost__example">
+            <p class="cost__tag">Пример расчёта 03</p>
+            <h3>Работы по проекту</h3>
+            <p>
+              Расчёт после осмотра
+            </p>
+          </article>
+        </div>
+
+        <a class="button" href="#contacts">Обсудить стоимость</a>
+      </div>
+    </section>
+
+    <section
+      class="about section"
+      id="about"
+      aria-labelledby="about-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Наш подход</p>
+          <h2 class="section__title" id="about-title">
+            Сначала понять задачу — потом планировать ремонт
+          </h2>
+          <p class="section__lead">
+            Начинаем с разговора о ваших планах и осмотра квартиры. Так проще
+            определить, какие работы действительно нужны.
+          </p>
+        </header>
+
+        <ul class="about__list">
+          <li class="about__item">
+            <h3>Уточняем пожелания</h3>
+            <p>
+              Обсуждаем, что хотите изменить и какие работы для вас важнее.
+            </p>
+          </li>
+          <li class="about__item">
+            <h3>Осматриваем квартиру</h3>
+            <p>
+              Оцениваем состояние помещений и уточняем предполагаемый объём
+              работ.
+            </p>
+          </li>
+          <li class="about__item">
+            <h3>Обсуждаем варианты</h3>
+            <p>
+              Рассказываем о возможных решениях и предварительной стоимости.
+            </p>
+          </li>
+          <li class="about__item">
+            <h3>Работаем в Курске</h3>
+            <p>
+              Согласуем выезд на объект в Курске или ближайшем районе.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="materials section"
+      id="materials"
+      aria-labelledby="materials-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Материалы</p>
+          <h2 class="section__title" id="materials-title">
+            Подбор материалов обсуждаем заранее
+          </h2>
+          <p class="section__lead">
+            Согласуем, какие материалы подходят для выбранных работ, кто
+            занимается их закупкой и как утверждаются возможные замены.
+          </p>
+        </header>
+
+        <ul class="materials__list">
+          <li class="materials__item">
+            <h3>Составляем перечень</h3>
+            <p>
+              Обсуждаем материалы, необходимые для согласованного объёма работ.
+            </p>
+          </li>
+          <li class="materials__item">
+            <h3>Согласуем варианты</h3>
+            <p>
+              Выбор материалов и возможные альтернативы утверждаем с заказчиком.
+            </p>
+          </li>
+          <li class="materials__item">
+            <h3>Определяем порядок закупки</h3>
+            <p>
+              Заранее обсуждаем, кто приобретает материалы и как организована
+              их доставка.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="work-principles section"
+      id="work-principles"
+      aria-labelledby="work-principles-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Наш принцип работы</p>
+          <h2 class="section__title" id="work-principles-title">
+            Понимание задачи — до начала работ
+          </h2>
+          <p class="section__lead">
+            Сначала обсуждаем ваши пожелания и осматриваем объект. Затем согласуем
+            состав работ, материалы и стоимость.
+          </p>
+        </header>
+
+        <ul class="work-principles__list">
+          <li class="work-principles__item">
+            <span aria-hidden="true">01</span>
+            <h3>Обсуждаем задачу</h3>
+            <p>
+              Вы рассказываете, что хотите изменить и какой результат ожидаете.
+            </p>
+          </li>
+
+          <li class="work-principles__item">
+            <span aria-hidden="true">02</span>
+            <h3>Осматриваем объект</h3>
+            <p>
+              Уточняем состояние квартиры и возможный объём работ.
+            </p>
+          </li>
+
+          <li class="work-principles__item">
+            <span aria-hidden="true">03</span>
+            <h3>Согласуем детали</h3>
+            <p>
+              Обсуждаем перечень работ, материалы, стоимость и дальнейшие шаги.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="steps section"
+      id="steps"
+      aria-labelledby="steps-title"
+    >
+      <div class="section__inner steps__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">С чего начать</p>
+          <h2 class="section__title" id="steps-title">
+            Первые шаги к ремонту
+          </h2>
+        </header>
+
+        <ol class="steps__list">
+          <li>
+            <h3>Оставьте заявку</h3>
+            <p>
+              Укажите имя и телефон, по которому с вами удобно связаться.
+            </p>
+          </li>
+          <li>
+            <h3>Обсудите задачу</h3>
+            <p>
+              Расскажите о квартире, планах и желаемом результате.
+            </p>
+          </li>
+          <li>
+            <h3>Договоритесь об осмотре</h3>
+            <p>
+              Согласуйте время осмотра объекта и дальнейшего обсуждения работ.
+            </p>
+          </li>
+          <a class="button" href="tel:+79606738436">
+            Перейти к заявке
+          </a>
+        </ol>
+      </div>
+    </section>
+
+    <section
+      class="faq section"
+      id="faq"
+      aria-labelledby="faq-title"
+    >
+      <div class="section__inner">
+        <header class="section__heading">
+          <p class="section__eyebrow">Вопросы и ответы</p>
+          <h2 class="section__title" id="faq-title">
+            Часто спрашивают о ремонте
+          </h2>
+        </header>
+
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>Как рассчитывается стоимость ремонта?</summary>
+            <p>
+              Стоимость зависит от состояния объекта и перечня работ.
+              Предварительно обсудить задачу можно по телефону, а точный состав
+              и стоимость работ — после осмотра.
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Сколько времени занимает ремонт?</summary>
+            <p>
+              Срок зависит от площади, состояния помещений и согласованного
+              объёма работ. Предполагаемые сроки обсуждаются после осмотра
+              объекта.
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Кто закупает материалы?</summary>
+            <p>
+              Порядок закупки материалов нужно согласовать до начала работ.
+              Обсудите, кто выбирает, приобретает и доставляет материалы.
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Нужно ли освобождать квартиру?</summary>
+            <p>
+              Это зависит от вида ремонта и состава работ. Обсудите условия
+              проживания и необходимость освобождения помещений при осмотре.
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Можно ли выполнить только часть работ?</summary>
+            <p>
+              Возможность выполнения отдельных работ зависит от задачи
+              и состояния объекта. Перечень можно обсудить при обращении.
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Выезжаете ли вы за пределы Курска?</summary>
+            <p>
+              Уточните возможность и условия выезда в ближайшие районы
+              по телефону.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" aria-labelledby="cta-title">
+      <div class="section__inner cta__inner">
+        <div class="cta__content">
+          <p class="section__eyebrow">Обсудим вашу задачу</p>
+          <h2 class="section__title" id="cta-title">
+            Расскажите, что хотите изменить
+          </h2>
+          <p class="section__lead">
+            Свяжитесь с нами, чтобы обсудить объект, возможные работы
+            и удобное время для осмотра.
+          </p>
+        </div>
+        <a class="button" href="#contacts">Перейти к заявке</a>
+      </div>
+    </section>
+
+    <section
+      class="callback section"
+      id="contacts"
+      aria-labelledby="callback-title"
+    >
+      <div class="section__inner callback__inner">
+        <div class="callback__content">
+          <p class="section__eyebrow">Связаться с нами</p>
+          <h2 class="section__title" id="callback-title">
+            Расскажите, какой ремонт вам нужен
+          </h2>
+          <p class="callback__text">
+            Оставьте имя и телефон — обсудим вашу задачу и подходящий формат
+            ремонта.
+          </p>
+          <a class="callback__phone" href="tel:+79606738436">
+            +7 (960) 673-84-36
+          </a>
+        </div>
+
+        <form
+          class="callback__form"
+          action="#"
+          method="post"
+          novalidate
+          data-callback-form
+        >
+          <div class="callback__field">
+            <label class="callback__label" for="callback-name">Имя</label>
+            <input
+              class="callback__input"
+              id="callback-name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              minlength="2"
+              maxlength="60"
+              required
+              aria-required="true"
+              aria-describedby="callback-name-error"
+            >
+            <p
+              class="callback__error"
+              id="callback-name-error"
+              hidden
+            ></p>
+          </div>
+
+          <div class="callback__field">
+            <label class="callback__label" for="callback-phone">Телефон</label>
+            <input
+              class="callback__input"
+              id="callback-phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              inputmode="tel"
+              placeholder="+7 (___) ___-__-__"
+              required
+              aria-required="true"
+              data-phone-input
+              aria-describedby="callback-phone-error"
+            >
+            <p
+              class="callback__error"
+              id="callback-phone-error"
+              hidden
+            ></p>
+          </div>
+
+          <div class="callback__consent">
+            <input
+              class="callback__consent-input"
+              id="callback-consent"
+              name="personal_data_consent"
+              type="checkbox"
+              value="yes"
+              required
+              aria-required="true"
+              aria-describedby="callback-consent-error"
+            >
+            <label
+              class="callback__consent-label"
+              for="callback-consent"
+            >
+              Согласен(на) на обработку персональных данных и ознакомлен(а)
+              с <a href="./privacy-policy/">политикой конфиденциальности</a>.
+            </label>
+            <p
+              class="callback__error callback__error--consent"
+              id="callback-consent-error"
+              hidden
+            ></p>
+          </div>
+
+          <button class="callback__submit button" type="submit">
+            Проверить и продолжить
+          </button>
+
+          <p
+            class="callback__status"
+            data-form-status
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a class="footer__logo" href="#top" aria-label="РемонтПлюс — наверх">
+        <span>
+          Ремонт<span class="header__logo-accent">Плюс</span>
+        </span>
+      </a>
+
+      <address class="footer__address">
+        Курск&nbsp;&nbsp;
+        <a href="tel:+79606738436">+7 (960) 673-84-36</a>
+      </address>
+
+      <p class="footer__copyright">
+        &copy; <time datetime="2026">2026</time> Ремонт квартир в Курске
+      </p>
+
+      <nav class="footer__legal" aria-label="Юридическая информация">
+        <a class="footer__legal-link" href="./privacy-policy/">
+          Политика конфиденциальности
+        </a>
+        <a class="footer__legal-link" href="./personal-data/">
+          Согласие на обработку персональных данных
+        </a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog
+    class="success-modal"
+    id="success-modal"
+    aria-labelledby="success-modal-title"
+    aria-describedby="success-modal-description"
+  >
+    <div class="success-modal__content">
+      <button
+        class="success-modal__close"
+        type="button"
+        aria-label="Закрыть окно"
+        data-modal-close
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+      <div class="success-modal__icon" aria-hidden="true">✓</div>
+      <p class="success-modal__eyebrow">Проверка пройдена</p>
+      <h2 class="success-modal__title" id="success-modal-title">Спасибо!</h2>
+      <p class="success-modal__text" id="success-modal-description">
+        Данные заполнены корректно. Чтобы отправлять заявки, потребуется
+        подключить обработчик формы.
+      </p>
+      <button class="button" type="button" data-modal-close>
+        Понятно
+      </button>
+    </div>
+  </dialog>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
